@@ -18,7 +18,7 @@ app.post('/chatbot',(request,response) =>{
  const agent = new WebhookClient({ request, response });
  let state = request.body.queryResult.parameters.state;
 function aboutHandler(agent){
- agent.add(`Here are the details for ${state}`);
+ agent.add(`The number of cases for ${state}`);
   return axios.get('https://sheetdb.io/api/v1/39oraf7bripew')
 .then((result) => {
             result.data.map(wordObj => {
