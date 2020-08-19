@@ -10,7 +10,7 @@ const ABOUT = "about";
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/',(req,res) =>{
+app.get('/',(request,response) =>{
 	res.status(200).send('Server is working')
 })
 
