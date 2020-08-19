@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "googleapis": "^49.0.0",
-    "superagent": "^5.2.2"
+    "superagent": "^5.2.2",
     "actions-on-google": "2.12.0",
     "dialogflow": "1.2.0",
     "dialogflow-fulfillment": "0.5.0",
