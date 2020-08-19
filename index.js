@@ -10,6 +10,10 @@ const ABOUT = "about";
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+app.get('/',(req,res) =>{
+	res.status(200).send('Server is working')
+})
+
 app.post('/chatbot',(request,response) =>{
  const agent = new WebhookClient({ request, response });
  let state = request.body.queryResult.parameters.state;
