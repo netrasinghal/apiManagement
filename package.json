@@ -8,14 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "actions-on-google": "^2.2.0",
     "axios": "^0.19.2",
-    "dialogflow": "^4.0.3",
-    "dialogflow-fulfillment": "^0.5.0",
-    "firebase-admin": "^8.11.0",
-    "firebase-functions": "^2.3.1",
     "googleapis": "^49.0.0",
     "superagent": "^5.2.2"
+    "actions-on-google": "2.12.0",
+    "dialogflow": "1.2.0",
+    "dialogflow-fulfillment": "0.5.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "5.13.1",
+    "firebase-functions": "3.6.1",
+    "resolve": "^1.17.0"
   },
   "author": "",
   "license": "ISC"
